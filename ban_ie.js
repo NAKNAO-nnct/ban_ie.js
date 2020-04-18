@@ -1,5 +1,5 @@
 // ブラウザ判定
-function ban_ie () {
+window.onload = function () {
   var userAgent = window.navigator.userAgent;
   // console.log(userAgent);
 
