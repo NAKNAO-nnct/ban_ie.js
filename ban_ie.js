@@ -11,7 +11,10 @@ window.onload = function () {
     console.log("IEでのアクセスは規制されています");
 
     // headの削除
-    document.getElementsByTagName('head')[0].remove()
+    let head = document.getElementsByTagName('head')[0];
+    head.parentNode.removeChild(head);
+    
+    // bodyを書き換え
     let body = document.getElementsByTagName("body");
     body[0].innerHTML =
       '\
