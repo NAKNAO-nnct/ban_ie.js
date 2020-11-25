@@ -18,9 +18,11 @@ window.onload = function () {
     let body = document.getElementsByTagName("body");
     body[0].innerHTML =
       '\
-            <div style="text-align: center; margin-top: 55px;"><h1 style="color: red;">IEではこのサイトを閲覧することができません</h1><br>\
-            <div style="text-align: center; margin-top: 55px;"><h3>You can\'t access this site by IE.</h3><br>\
-            <div style="text-align: center; margin-top: 55px;"><h3>動作保証環境: Edge / Chrome / FireFox / Safari</h3></div>\
+            <div style="text-align: center; margin-top: 55px;">\
+              <h1 style="color: red;">IEではこのサイトを閲覧することができません</h1><br>\
+              <h3>You can\'t access this site by IE.</h3><br>\
+              <h3>動作保証環境: Edge / Chrome / FireFox / Safari</h3>\
+            </div>\
         ';
   }
 };
